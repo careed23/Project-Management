@@ -87,7 +87,7 @@ The dashboard is divided into two main tabs:
 
 <div align="center">
 
-## 💡 Best Practices for IT Project Management 💡
+# 💡 Best Practices for IT Project Management
 
 </div>
 
