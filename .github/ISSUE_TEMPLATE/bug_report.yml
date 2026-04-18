@@ -1,0 +1,52 @@
+name: Bug Report
+description: Create a report to help us improve
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce the behavior
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      description: What operating system are you using?
+      placeholder: e.g., Windows 11, macOS Sonoma, Ubuntu 22.04
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Python/Streamlit Version
+      description: Which version of Python and Streamlit are you using?
+      placeholder: e.g., Python 3.10, Streamlit 1.30.0
+    validations:
+      required: true
