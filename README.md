@@ -85,7 +85,11 @@ The dashboard is divided into two main tabs:
 
 ---
 
-## 💡 Best Practices for IT Project Management (For Business Owners)
+<div align="center">
+
+## 💡 Best Practices for IT Project Management
+
+</div>
 
 ### Introduction to IT Project Management
 
