@@ -1,48 +1,32 @@
-# Strategic PMO Dashboard
+<div align="center">
 
-A high-level Project Management Office (PMO) dashboard built with Streamlit, Plotly, and SQLite. This tool provides executives and project managers with a real-time overview of portfolio health, budget utilization, and strategic roadmaps.
+# Project-Management
 
-## 🚀 Features
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=flat-square&logo=streamlit&logoColor=white)
+![Repo Size](https://img.shields.io/github/repo-size/careed23/Project-Management?style=flat-square)
 
-- **Portfolio Overview**: High-level KPIs tracking total projects, status distribution, and total budget.
-- **Interactive Roadmap**: Gantt-style timeline for visualizing project schedules.
-- **Financial Analytics**: Pie charts and indicators for budget vs. actual spending.
-- **Data Persistence**: Integrated SQLite backend to manage project data.
-- **CRUD Operations**: Add, update, or delete projects directly through the dashboard interface.
+</div>
 
-## 🛠️ Tech Stack
+This repository contains a Streamlit-based Strategic Project Management Office (PMO) Dashboard. The dashboard is designed to provide a high-level overview of multiple projects, their statuses, budgets, and timelines, catering to business owners and stakeholders who need a quick, comprehensive understanding of their project portfolio.
+## Features
 
-- **Frontend**: [Streamlit](https://streamlit.io/)
-- **Visualizations**: [Plotly](https://plotly.com/python/)
-- **Database**: SQLite
-- **Language**: Python 3.9+
+*   **Executive KPIs**: Key metrics like total projects, projects on track, at-risk/critical projects, and overall budget.
+*   **Project Portfolio Status**: A detailed table showing each project's status with color-coded indicators (Green for On Track, Yellow for At Risk, Red for Critical).
+*   **Project Timeline (Roadmap)**: An interactive Gantt chart-style timeline visualizing project durations and statuses.
+*   **Budget Utilization**: A pie chart illustrating spending distribution across projects.
+*   **Average Progress Gauge**: A speedometer-like gauge displaying the average completion percentage of the entire project portfolio.
+*   **Risk & Blocker Summary**: A section highlighting top risks and critical blockers with their potential impacts and mitigation strategies.
+*   **Interactive Filters**: A sidebar allows users to filter projects by status, providing dynamic views of the portfolio.
 
-## 📦 Installation
+## Installation and Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/careed23/Project-Management.git
-   cd Project-Management
-   ```
+### Prerequisites
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+*   Python 3.8 or higher
+*   pip (Python package installer)
 
-3. Run the application:
-   ```bash
-   streamlit run app.py
-   ```
+### Steps
 
-## 📂 Project Structure
+1.  **Clone the Repository (if you haven't already):**
 
-- `app.py`: Main entry point for the Streamlit application.
-- `src/`: Core logic and UI components.
-  - `database.py`: SQLite database management and CRUD logic.
-  - `ui.py`: Reusable UI components and layout definitions.
-- `data/`: Local storage for the SQLite database.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
